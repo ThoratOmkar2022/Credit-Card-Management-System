@@ -1,0 +1,359 @@
+.giriraj_logo {
+  width: 100%;
+}
+
+.head_slider {
+  width: 100px
+}
+
+.heading {
+  display: flex;
+  margin: 20px;
+}
+
+.Comp_Name {
+  padding: 10px;
+  color: white;
+}
+
+.header_logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logout_logo {
+  background-color: aliceblue;
+  color: gray;
+  border: 1px solid gray;
+  padding-bottom: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_logout {
+  margin-right: 20px;
+}
+
+.logo_heading {
+  font-size: 20px;
+  padding: 25px 0px 0px 15px;
+  color: rgb(75, 96, 110);
+}
+
+.breadcrumb_item {
+  margin-left: 15px;
+}
+
+.sv_heading {
+  color: rgb(61, 180, 216);
+  border-bottom: 2px solid rgb(61, 180, 216);
+}
+
+.gd_heading {
+  padding-left: 15px;
+  color: rgb(75, 96, 110);
+}
+
+.showCard_heading {
+  display: flex;
+  flex-direction: row;
+  /* padding:0px 5px; */
+}
+
+.project_heading {
+  color: white;
+  /* margin: 30px 10px; */
+  /* font-size: 12px; */
+  text-align: center;
+  margin-top: 20px;
+  /* padding:5px 10px */
+}
+
+.menu {
+  width: 50%;
+  height: 100%;
+  /* margin-top: 30px; */
+}
+
+.menu_item {
+  border-bottom: 1px solid white;
+}
+
+.logout_menu_item {
+  margin-top: 100px;
+}
+
+.side_menu {
+  margin-top: 50px;
+  padding: 0px 10px;
+  border-radius: 0px;
+}
+
+.nav_items {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(36, 34, 34);
+  border-bottom: 1px solid rgb(83, 82, 82);
+}
+
+.trigger {
+  margin-left: 20px;
+  height: 40px;
+}
+
+/* ********************* Form style**********************/
+.new_card {
+  color: white;
+  background-color: rgb(58, 188, 240);
+  border-radius: 3px;
+  border: none;
+}
+
+.form_btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ******************Style for form************************* */
+
+.new_card_form {
+  width: 100%;
+  background-color: white;
+}
+
+.form_field {
+  width: 100%;
+}
+
+.form_field_div {
+  margin-bottom: 15px;
+}
+
+.form_CVV_div {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* *********************Style for card************************** */
+
+.container {
+  background-color: rgb(237, 235, 235);
+}
+
+.show_card {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin-left: 15px;
+}
+
+.card_detailss {
+  width: 30%;
+}
+
+.save_card {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.cr_card,
+.dr_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+
+.cr_action,
+.dr_action {
+  background-color: rgb(143, 222, 248);
+  width: 200px;
+  height: 200px;
+  padding: 25px 25px;
+  border-radius: 10px;
+}
+
+.ac_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gp_ac_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-left: 50px; */
+  /* margin-left: 15px; */
+}
+
+.action_btn {
+  background-color: rgb(13, 138, 187);
+  border: none;
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+
+.action_btn_heading {
+  max-width: 67px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.lock_archive_btn,
+.default_gp_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 10px 10px; */
+}
+
+.btn {
+  border-radius: 40px;
+}
+
+.cr_wrapper,
+.dr_wrapper {
+  width: 340px;
+  height: 180px;
+  background-color: #032947;
+  border-radius: 15px;
+}
+
+.card_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 30px;
+}
+
+.card_name {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  margin-top: 25px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card_holder_name {
+  font-size: 1.4rem;
+}
+
+.acc_no {
+  font-size: 1.2rem;
+  word-spacing: 10px;
+}
+
+.card_date {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card_heading {
+  display: flex;
+  align-items: flex-start;
+  color: rgb(14, 162, 211);
+  border-bottom: 1px solid rgb(14, 162, 211);
+  width: 22%;
+  font-weight: bold;
+  /* font-size: 10px; */
+}
+
+.debit_card,
+.credit_card {
+  margin-top: 20px;
+}
+
+.hdfc_logo {
+  width: 30%;
+  height: 20%;
+}
+
+.masterCard {
+  width: 20%;
+  border-radius: 25px;
+  color: rgb(71, 129, 236)
+}
+
+.show_card_btn {
+  background-color: rgb(176, 221, 233);
+  border: none;
+  border-radius: 5px;
+  margin-left: 210px;
+}
+
+/* ***********card Page******************* */
+.card_details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  border: none;
+}
+
+.ant-collapse-header-text,
+.ant-collapse-expand-icon,
+.extra_icon {
+  color: rgb(29, 197, 248);
+}
+
+.card_dtl,
+.today_transictions {
+  padding: 20px 25px;
+  color: rgb(29, 197, 248);
+  background-color: rgb(245, 242, 238);
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+
+@media (max-width: 860px) {
+
+  .cr_card,
+  .dr_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cr_action,
+  .dr_action {
+    margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 1060px) {
+  .save_card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .show_card {
+    width: 100%;
+  }
+
+  .card_detailss {
+    width: 100%;
+  }
+}
